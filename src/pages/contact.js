@@ -8,7 +8,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <Head title="Contact Us" />
-      <p>Here is some contact information for my site.</p>
+      <p>Please take some time and fill out this form.</p>
       <form name="contact" method="POST" data-netlify="true">
         <p>
           <label>Your Name: <input type="text" name="name" /></label>
