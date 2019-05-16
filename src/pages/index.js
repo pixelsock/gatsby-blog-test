@@ -15,6 +15,7 @@ const IndexPage = () => {
       <h2> I'm Nick, a full-stack developer living in beautiful Charlotte.</h2>
       <p> Need an agency? Call</p>
       <p><Link to="/contact">Saturday Brand Communications</Link></p>
+      <p>This is the latest change.</p>
     </Layout>
 
   )
