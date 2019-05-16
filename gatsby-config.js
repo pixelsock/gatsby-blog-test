@@ -12,18 +12,18 @@ module.exports = {
                 accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
             }
         },
-        {
-            resolve: `gatsby-source-strapi`,
-            options: {
-                apiURL: `http://localhost:1337`,
-                queryLimit: 1000,
-                contentTypes: [`article`, `user`],
-                loginData: {
-                    indentifier: "",
-                    password: "",
-                },
-            },
-        },
+        // {
+        //     resolve: `gatsby-source-strapi`,
+        //     options: {
+        //         apiURL: `http://localhost:1337`,
+        //         queryLimit: 1000,
+        //         contentTypes: [`article`, `user`],
+        //         loginData: {
+        //             indentifier: "",
+        //             password: "",
+        //         },
+        //     },
+        // },
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-source-filesystem',
